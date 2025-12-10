@@ -18,40 +18,33 @@ export default defineConfig({
         background_color: '#FFF5F7',
         display: 'standalone',
         orientation: 'portrait',
-        scope: '/',
-        start_url: '/',
+        scope: '/truth-or-dare-pwa/',  // 👈 Cambiado
+        start_url: '/truth-or-dare-pwa/',  // 👈 Cambiado
         icons: [
           {
-            src: 'pwa-192x192.png',
+            src: '/truth-or-dare-pwa/pwa-192x192.png',  // 👈 Cambiado
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'pwa-512x512.png',
+            src: '/truth-or-dare-pwa/pwa-512x512.png',  // 👈 Cambiado
             sizes: '512x512',
             type: 'image/png'
           },
           {
-            src: 'pwa-512x512.png',
+            src: '/truth-or-dare-pwa/pwa-512x512.png',  // 👈 Cambiado
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: 'pwa-512x512.png',
+            src: '/truth-or-dare-pwa/pwa-512x512.png',  // 👈 Cambiado
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable'
           }
         ],
-        categories: ['games', 'entertainment'],
-        screenshots: [
-          {
-            src: 'screenshot.png',
-            sizes: '540x720',
-            type: 'image/png'
-          }
-        ]
+        categories: ['games', 'entertainment']
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
@@ -63,7 +56,7 @@ export default defineConfig({
               cacheName: 'google-fonts-cache',
               expiration: {
                 maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 * 365 // 1 año
+                maxAgeSeconds: 60 * 60 * 24 * 365
               },
               cacheableResponse: {
                 statuses: [0, 200]

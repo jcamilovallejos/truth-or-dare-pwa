@@ -34,7 +34,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter>
+      <BrowserRouter basename="/truth-or-dare-pwa">
         <AppRoutes />
       </BrowserRouter>
     </ThemeProvider>
