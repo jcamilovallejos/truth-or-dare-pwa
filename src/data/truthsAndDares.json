@@ -1,0 +1,596 @@
+{
+  "soft": {
+    "truths": {
+      "forMale": [
+        {
+          "type": "truth",
+          "content": "¿Qué parte del cuerpo femenino te excita más?",
+          "requiresPartner": false,
+          "targetGender": "male"
+        },
+        {
+          "type": "truth",
+          "content": "¿Has fantaseado con alguien de este grupo?",
+          "requiresPartner": false,
+          "targetGender": "male"
+        },
+        {
+          "type": "truth",
+          "content": "¿Prefieres dar o recibir sexo oral?",
+          "requiresPartner": false,
+          "targetGender": "male"
+        },
+        {
+          "type": "truth",
+          "content": "¿Cuál es tu posición sexual favorita?",
+          "requiresPartner": false,
+          "targetGender": "male"
+        },
+        {
+          "type": "truth",
+          "content": "¿Qué prenda femenina te parece más sexy?",
+          "requiresPartner": false,
+          "targetGender": "male"
+        }
+      ],
+      "forFemale": [
+        {
+          "type": "truth",
+          "content": "¿Qué parte del cuerpo masculino te vuelve loca?",
+          "requiresPartner": false,
+          "targetGender": "female"
+        },
+        {
+          "type": "truth",
+          "content": "¿Has tenido sueños eróticos con alguien de aquí?",
+          "requiresPartner": false,
+          "targetGender": "female"
+        },
+        {
+          "type": "truth",
+          "content": "¿Qué te excita más: los besos o las caricias?",
+          "requiresPartner": false,
+          "targetGender": "female"
+        },
+        {
+          "type": "truth",
+          "content": "¿Cuál es tu zona erógena favorita?",
+          "requiresPartner": false,
+          "targetGender": "female"
+        },
+        {
+          "type": "truth",
+          "content": "¿Qué tan seguido piensas en sexo?",
+          "requiresPartner": false,
+          "targetGender": "female"
+        }
+      ],
+      "forAny": [
+        {
+          "type": "truth",
+          "content": "¿Cuál ha sido tu fantasía sexual más reciente?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "truth",
+          "content": "¿En qué lugar público te gustaría tener sexo?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "truth",
+          "content": "¿Qué tan seguido te masturbas?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "truth",
+          "content": "¿Has enviado fotos íntimas a alguien?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "truth",
+          "content": "¿Qué tan bueno crees que eres besando del 1 al 10?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        }
+      ]
+    },
+    "dares": {
+      "forMale": [
+        {
+          "type": "dare",
+          "content": "Dale un beso en el cuello a {partner}",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "dare",
+          "content": "Susúrrale algo sucio al oído a {partner}",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "dare",
+          "content": "Dale un masaje en los hombros a {partner} durante 1 minuto",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "dare",
+          "content": "Haz contacto visual con {partner} durante 30 segundos sin reír",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "dare",
+          "content": "Describe en detalle lo que le harías a {partner}",
+          "requiresPartner": true,
+          "targetGender": "male"
+        }
+      ],
+      "forFemale": [
+        {
+          "type": "dare",
+          "content": "Baila de forma sensual para {partner} durante 30 segundos",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "dare",
+          "content": "Siéntate en el regazo de {partner} durante el siguiente turno",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "dare",
+          "content": "Deja que {partner} te bese donde quiera (excepto boca) por 15 segundos",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "dare",
+          "content": "Dale un beso en el pecho a {partner}",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "dare",
+          "content": "Haz tu mejor gemido sensual mirando a {partner}",
+          "requiresPartner": true,
+          "targetGender": "female"
+        }
+      ],
+      "forAny": [
+        {
+          "type": "dare",
+          "content": "Quítate una prenda de ropa",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "dare",
+          "content": "Describe tu fantasía sexual más salvaje",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "dare",
+          "content": "Muestra tu ropa interior",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "dare",
+          "content": "Cuenta tu experiencia sexual más loca",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "dare",
+          "content": "Imita cómo te ves cuando llegas al orgasmo",
+          "requiresPartner": false,
+          "targetGender": "any"
+        }
+      ]
+    }
+  },
+  "horny": {
+    "truths": {
+      "forMale": [
+        {
+          "type": "truth",
+          "content": "¿Qué tan grande la tienes? Sé honesto",
+          "requiresPartner": false,
+          "targetGender": "male"
+        },
+        {
+          "type": "truth",
+          "content": "¿Cuánto tiempo puedes durar en la cama?",
+          "requiresPartner": false,
+          "targetGender": "male"
+        },
+        {
+          "type": "truth",
+          "content": "¿Has pensado en acostarte con {partner}?",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "truth",
+          "content": "¿Qué le harías a {partner} si estuvieran solos?",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "truth",
+          "content": "¿Estás excitado ahora mismo? ¿Qué tan duro?",
+          "requiresPartner": false,
+          "targetGender": "male"
+        }
+      ],
+      "forFemale": [
+        {
+          "type": "truth",
+          "content": "¿Qué tan mojada estás ahora mismo?",
+          "requiresPartner": false,
+          "targetGender": "female"
+        },
+        {
+          "type": "truth",
+          "content": "¿Has fingido un orgasmo? ¿Cuántas veces?",
+          "requiresPartner": false,
+          "targetGender": "female"
+        },
+        {
+          "type": "truth",
+          "content": "¿Qué parte del cuerpo de {partner} te gustaría lamer?",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "truth",
+          "content": "¿Te gustaría que {partner} te tocara ahora mismo?",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "truth",
+          "content": "¿Cuál es tu fantasía sexual con alguien de aquí?",
+          "requiresPartner": false,
+          "targetGender": "female"
+        }
+      ],
+      "forAny": [
+        {
+          "type": "truth",
+          "content": "¿Cuál es tu fetiche sexual más oscuro?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "truth",
+          "content": "¿Has grabado un video teniendo sexo?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "truth",
+          "content": "¿Serías capaz de tener sexo delante de otras personas?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "truth",
+          "content": "¿Con quién de aquí tendrías un trío?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "truth",
+          "content": "¿Qué juego sexual te gustaría probar esta noche?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        }
+      ]
+    },
+    "dares": {
+      "forMale": [
+        {
+          "type": "dare",
+          "content": "Besa apasionadamente a {partner} durante 15 segundos",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "dare",
+          "content": "Lame el cuello de {partner} lentamente de arriba a abajo",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "dare",
+          "content": "Quítale una prenda a {partner} con los dientes",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "dare",
+          "content": "Toca los senos de {partner} por encima de la ropa durante 30 segundos",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "dare",
+          "content": "Besa el vientre de {partner} bajando lentamente",
+          "requiresPartner": true,
+          "targetGender": "male"
+        }
+      ],
+      "forFemale": [
+        {
+          "type": "dare",
+          "content": "Toca la entrepierna de {partner} por encima del pantalón durante 30 segundos",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "dare",
+          "content": "Haz un baile de strip-tease para {partner} hasta quedarte en ropa interior",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "dare",
+          "content": "Deja que {partner} bese tus senos (por encima o debajo de la ropa, tú decides)",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "dare",
+          "content": "Frótate contra {partner} de forma sensual durante 30 segundos",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "dare",
+          "content": "Deja que {partner} te quite la camisa con los dientes",
+          "requiresPartner": true,
+          "targetGender": "female"
+        }
+      ],
+      "forAny": [
+        {
+          "type": "dare",
+          "content": "Quítate la camisa/blusa y quédate así durante 3 turnos",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "dare",
+          "content": "Quédate solo en ropa interior por el resto del juego",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "dare",
+          "content": "Tócate de forma sensual durante 20 segundos",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "dare",
+          "content": "Cuenta en detalle tu mejor experiencia de sexo oral",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "dare",
+          "content": "Demuestra cómo le das placer a tu pareja",
+          "requiresPartner": false,
+          "targetGender": "any"
+        }
+      ]
+    }
+  },
+  "hot": {
+    "truths": {
+      "forMale": [
+        {
+          "type": "truth",
+          "content": "¿Estarías dispuesto a penetrar a {partner} ahora mismo?",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "truth",
+          "content": "¿Le harías sexo oral a {partner} delante de todos?",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "truth",
+          "content": "¿Qué tan duro estás ahora pensando en {partner}?",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "truth",
+          "content": "¿Has tenido sexo anal con una mujer? ¿Te gustó?",
+          "requiresPartner": false,
+          "targetGender": "male"
+        },
+        {
+          "type": "truth",
+          "content": "Describe en detalle cómo harías correrse a {partner}",
+          "requiresPartner": true,
+          "targetGender": "male"
+        }
+      ],
+      "forFemale": [
+        {
+          "type": "truth",
+          "content": "¿Dejarías que {partner} te penetre aquí y ahora?",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "truth",
+          "content": "¿Le chuparías el pene a {partner} delante de todos?",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "truth",
+          "content": "¿Qué tan mojada estás ahora pensando en {partner}?",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "truth",
+          "content": "¿Has probado el sexo anal? ¿Te gustaría?",
+          "requiresPartner": false,
+          "targetGender": "female"
+        },
+        {
+          "type": "truth",
+          "content": "¿Cuántos orgasmos puedes tener seguidos?",
+          "requiresPartner": false,
+          "targetGender": "female"
+        }
+      ],
+      "forAny": [
+        {
+          "type": "truth",
+          "content": "¿Has tenido sexo en grupo? Describe la experiencia",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "truth",
+          "content": "¿Qué tan seguido ves pornografía?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "truth",
+          "content": "¿Cuál es la cosa más sucia que has hecho en la cama?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "truth",
+          "content": "¿Has usado juguetes sexuales? ¿Cuáles?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "truth",
+          "content": "¿Tendrías sexo con más de una persona a la vez ahora?",
+          "requiresPartner": false,
+          "targetGender": "any"
+        }
+      ]
+    },
+    "dares": {
+      "forMale": [
+        {
+          "type": "dare",
+          "content": "Chupa los senos de {partner} durante 1 minuto",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "dare",
+          "content": "Toca directamente la vagina de {partner} (por encima o debajo de la ropa)",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "dare",
+          "content": "Haz que {partner} se corra usando solo tus manos",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "dare",
+          "content": "Dale sexo oral a {partner} durante 2 minutos",
+          "requiresPartner": true,
+          "targetGender": "male"
+        },
+        {
+          "type": "dare",
+          "content": "Penetra a {partner} en la posición que ella elija",
+          "requiresPartner": true,
+          "targetGender": "male"
+        }
+      ],
+      "forFemale": [
+        {
+          "type": "dare",
+          "content": "Masturba a {partner} hasta que se corra",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "dare",
+          "content": "Chúpale el pene a {partner} durante 2 minutos",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "dare",
+          "content": "Deja que {partner} te penetre en la posición que él elija",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "dare",
+          "content": "Tócate delante de {partner} hasta que te corras",
+          "requiresPartner": true,
+          "targetGender": "female"
+        },
+        {
+          "type": "dare",
+          "content": "Deja que {partner} te haga sexo oral hasta que tengas un orgasmo",
+          "requiresPartner": true,
+          "targetGender": "female"
+        }
+      ],
+      "forAny": [
+        {
+          "type": "dare",
+          "content": "Desnúdate completamente y quédate así por 5 turnos",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "dare",
+          "content": "Masturba a la persona del sexo opuesto más cercana",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "dare",
+          "content": "Ten sexo en la posición que el grupo vote",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "dare",
+          "content": "Haz un 69 con alguien del sexo opuesto durante 2 minutos",
+          "requiresPartner": false,
+          "targetGender": "any"
+        },
+        {
+          "type": "dare",
+          "content": "Demuestra tu mejor técnica de sexo oral con {partner}",
+          "requiresPartner": true,
+          "targetGender": "any"
+        }
+      ]
+    }
+  }
+}
